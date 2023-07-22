@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CALC</title>
+	
+	<script src="static/utility.js"></script>
+  </head>
+  <body style="background-color:#B8FFF9 ;">
+	<style>
+		p {text-align: center;}
+		div {text-align: center;}
+		section {text-align: center;}
+		dialog {text-align: center;}
+		
+		a {text-align: center;}
+		.myDiv1 {border: 5px outset black;background-color: #C4DDFF;   text-align: center;}
+		.myDiv2 {border: 3px outset green;background-color: white;   text-align: center;}
+		.myDiv3 {border: 3px outset green;background-color: white;   text-align: center;}
+	</style>
+
+	<div class="myDiv1">
+		<table class="main">
+			<tbody>
+				<tr>
+					<td><img src="calc.jpg" alt="Calc"  width="58" height="48"></td>
+					<td><h1>CALCULATOR</h1></td>
+				</tr>
+			</tbody>
+		</table>
+	  </div>
+	
+	<div class="myDiv2">
+		<section aria-label="quick summary" class="article__summary">
+			<span class="summary__heading">Quick summary&nbsp;↬ </span>
+			
+			  It is a Web Calculator application developed by Sanat Tudu.<br> This web application is made by using flask, Json and tkinter modules .
+			  <hr>
+			
+		  </section>
+			
+			<br>
+			<img src="https://imgr.search.brave.com/sfhYEiUP8oeyIbiKeJ65xWLol80Uz7BVUnC6TkCOUB4/fit/1000/1000/ce/1/aHR0cDovL3d3dy50/bGNob2xtdmlldy5j/b20uYXUvdXBsb2Fk/cy9jYXNpbyUyMHNj/aWVudGlmaWMlMjBj/YWxjLmpwZw" alt="Filehippo" class="home-cover__img" data-qa="home-cover-image" width="508" height="418">
+			<br>
+			<hr>
+			<a class="first" href="https://en.wikipedia.org/wiki/Calculator" >Calculator Wikipedia</a> |
+			<a class="second" href="http://127.0.0.1:5000/help" > HELP </a>
+			
+	</div>
+
+	
+	<dialog open style="color:red">AFTER CLICKING BUTTON PLEASE CHECK YOUR TASKBAR FOR THE CALCULATOR APPLICATION INVOKED</dialog>
+	
+	<div class="myDiv3">
+	<form name="my_form" >
+		<br>
+		<br>
+		<br>
+		<br>
+		CLICK THIS BUTTON TO OPEN THE APPLICATION : &nbsp;<input type="button" class="btn btn-sm" onclick="submitData('submitJSON')"  name = "sim_calc" value="CLICK">	
+
+	</form>	
+	</div>
+
+	<div class="row">
+    			<div class="col-md-8" align = "rigth" style="float:left; margin-top: 0.45cm;" id="output_div">
+    			</div>
+    	</div>			
+	
+</body>
+</html>
